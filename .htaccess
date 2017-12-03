@@ -1,0 +1,7 @@
+Options -Indexes
+ErrorDocument 404 "Stranica nije pronadjena"
+#u ovom slucaju samo apsolutna putanja
+
+#ovde ne moze da se koristi direktiva listen
+
+ErrorDocument 403 "Nema gledanja sadrzaja foldera"
